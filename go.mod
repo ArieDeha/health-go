@@ -2,6 +2,8 @@ module github.com/ArieDeha/health-go/v5
 
 go 1.18
 
+replace github.com/hellofresh/health-go/v5 => ./
+
 require (
 	github.com/bradfitz/gomemcache v0.0.0-20220106215444-fb4bf637b56d
 	github.com/go-redis/redis/v9 v9.0.0-beta.2
